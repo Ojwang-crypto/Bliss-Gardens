@@ -1,0 +1,262 @@
+<div class="col-sm-4 col-sm-6 single"><!--single  begin -->
+
+                <div class="product"><!--product  begin -->
+              
+                   <a href="details.php">
+            
+                       <img class="image-responsive" src="admin_area/product_images/product-1.jpg" alt="product-1">
+                    
+                   </a>
+
+                     <div class="text"><!--text  begin-->    
+                         <h3>
+                             <a href="details.php">
+                                 Fresh Brocoli
+                             </a>
+                             <p class="price">$4.50</p>
+                             <p class="button">
+                                 <a href="details.php" class="btn btn-default">View Details</a>
+                                 <a href="details.php" class="btn btn-primary">
+                                  <i class="fa fa-shopping-cart">
+                                      Add To Cart</i>   
+                                 </a>
+                             </p>
+                         </h3>
+                     </div><!--text  Finish -->
+                </div><!--product  Finish -->
+
+            </div><!--single  Finish -->
+            
+             <div class="col-sm-4 col-sm-6 single"><!--single  begin -->
+
+                <div class="product"><!--product  begin -->
+              
+                   <a href="details.php">
+            
+                       <img class="image-responsive" src="admin_area/product_images/product-2.jpg" alt="product-2">
+                  </a>
+                     <div class="text"><!--text  begin-->    
+                         <h3>
+                             <a href="details.php">
+                                 Fresh Carrots
+                             </a>
+                             <p class="price">$3.70</p>
+                             <p class="button">
+                                 <a href="details.php" class="btn btn-default">View Details</a>
+                                 <a href="details.php" class="btn btn-primary">
+                                  <i class="fa fa-shopping-cart">
+                                      Add To Cart</i>   
+                                 </a>
+                             </p>
+                         </h3>
+                     </div><!--text  Finish -->
+                </div><!--product  Finish -->
+
+            </div><!--single  Finish -->
+             <div class="col-sm-4 col-sm-6 single"><!--single  begin -->
+
+                <div class="product"><!--product  begin -->
+              
+                   <a href="details.php">
+            
+                       <img class="image-responsive" src="admin_area/product_images/product-3.jpg" alt="product-3">
+                  </a>
+                     <div class="text"><!--text  begin-->    
+                         <h3>
+                             <a href="details.php">
+                                 Fresh Tomatoes
+                             </a>
+                             <p class="price">$1.00</p>
+                             <p class="button">
+                                 <a href="details.php" class="btn btn-default">View Details</a>
+                                 <a href="details.php" class="btn btn-primary">
+                                  <i class="fa fa-shopping-cart">
+                                      Add To Cart</i>   
+                                 </a>
+                             </p>
+                         </h3>
+                     </div><!--text  Finish -->
+                </div><!--product  Finish -->
+
+            </div><!--single  Finish -->
+            
+            
+
+         
+         
+
+            <div class="col-sm-4 col-sm-6 single"><!--single  begin -->
+
+                <div class="product"><!--product  begin -->
+              
+                   <a href="details.php">
+            
+                       <img class="image-responsive" src="admin_area/product_images/product-4.jpg" alt="product-4">
+                    
+                   </a>
+
+                     <div class="text"><!--text  begin-->    
+                         <h3>
+                             <a href="details.php">
+                                 Coriander
+                             </a>
+                             <p class="price">$4.20</p>
+                             <p class="button">
+                                 <a href="details.php" class="btn btn-default">View Details</a>
+                                 <a href="details.php" class="btn btn-primary">
+                                  <i class="fa fa-shopping-cart">
+                                      Add To Cart</i>   
+                                 </a>
+                             </p>
+                         </h3>
+                     </div><!--text  Finish -->
+                </div><!--product  Finish -->
+
+            </div><!--single  Finish -->
+             <div class="col-sm-4 col-sm-6 single"><!--single  begin -->
+
+                <div class="product"><!--product  begin -->
+              
+                   <a href="details.php">
+            
+                       <img class="image-responsive" src="admin_area/product_images/product-5.jpg" alt="product-5">
+                  </a>
+                     <div class="text"><!--text  begin-->    
+                         <h3>
+                             <a href="details.php">
+                                 Onions
+                             </a>
+                             <p class="price">$3.75</p>
+                             <p class="button">
+                                 <a href="details.php" class="btn btn-default">View Details</a>
+                                 <a href="details.php" class="btn btn-primary">
+                                  <i class="fa fa-shopping-cart">
+                                      Add To Cart</i>   
+                                 </a>
+                             </p>
+                         </h3>
+                     </div><!--text  Finish -->
+                </div><!--product  Finish -->
+
+            </div><!--single  Finish -->
+             <div class="col-sm-4 col-sm-6 single"><!--single  begin -->
+
+                <div class="product"><!--product  begin -->
+              
+                   <a href="details.php">
+            
+                       <img class="image-responsive" src="admin_area/product_images/product-6.jpg" alt="product-6">
+                  </a>
+                     <div class="text"><!--text  begin-->    
+                         <h3>
+                             <a href="details.php">
+                                 Pepper
+                             </a>
+                             <p class="price">$2.55</p>
+                             <p class="button">
+                                 <a href="details.php" class="btn btn-default">View Details</a>
+                                 <a href="details.php" class="btn btn-primary">
+                                  <i class="fa fa-shopping-cart">
+                                      Add To Cart</i>   
+                                 </a>
+                             </p>
+                         </h3>
+                     </div><!--text  Finish -->
+                </div><!--product  Finish -->
+
+            </div><!--single  Finish -->
+            <div class="col-sm-4 col-sm-6 single"><!--single  begin -->
+
+                <div class="product"><!--product  begin -->
+              
+                   <a href="details.php">
+            
+                       <img class="image-responsive" src="admin_area/product_images/product-7.jpg" alt="product-7">
+                  </a>
+                     <div class="text"><!--text  begin-->    
+                         <h3>
+                             <a href="details.php">
+                                  Kales
+                             </a>
+                             <p class="price">$5.00</p>
+                             <p class="button">
+                                 <a href="details.php" class="btn btn-default">View Details</a>
+                                 <a href="details.php" class="btn btn-primary">
+                                  <i class="fa fa-shopping-cart">
+                                      Add To Cart</i>   
+                                 </a>
+                             </p>
+                         </h3>
+                     </div><!--text  Finish -->
+                </div><!--product  Finish -->
+
+            </div><!--single  Finish -->
+            <div class="col-sm-4 col-sm-6 single"><!--single  begin -->
+
+                <div class="product"><!--product  begin -->
+              
+                   <a href="details.php">
+            
+                       <img class="image-responsive" src="admin_area/product_images/product-8.jpg" alt="product-8">
+                  </a>
+                     <div class="text"><!--text  begin-->    
+                         <h3>
+                             <a href="details.php">
+                                  Ginger
+                             </a>
+                             <p class="price">$3.50</p>
+                             <p class="button">
+                                 <a href="details.php" class="btn btn-default">View Details</a>
+                                 <a href="details.php" class="btn btn-primary">
+                                  <i class="fa fa-shopping-cart">
+                                      Add To Cart</i>   
+                                 </a>
+                             </p>
+                         </h3>
+                     </div><!--text  Finish -->
+                </div><!--product  Finish -->
+
+            </div><!--single  Finish -->
+
+
+
+
+
+
+            <form action="details.php?add_cart=<?php echo $product_id; ?>" class="form-horizontal" method="post"><!--form   begin -->
+                   <div class="form-group"><!--form-group   begin -->
+                   <label class="col-md-5 control-label">Products Quantity</label>
+
+                     <div class="col-md-7"><!--col-md-7   begin -->
+                         <select name="product_qty" id="" class="form-control">
+                             <option>1</option>
+                             <option>2</option>
+                             <option>3</option>
+                             <option>4</option>
+                             <option>5</option>
+                         </select>
+                     </div><!--col-md-7   Finish -->
+
+                   </div><!--form-group   Finish -->
+
+                 <div class="form-group"><!--form  begin -->
+                     <label class="col-md-5 control-label">Product Category</label>
+                     <div class="col-md-7"><!--col-md-7   begin -->
+                      
+                         <select name="product_size" class="form-control" required oninput="setCustomValidity('')" oninvalid="setCustomValidity('Must pick 1 category for the product')">
+                         
+                             <option disabled selected>Select your category </option>
+                             <option>Ripe</option>
+                             <option>Unripe</option>
+                             
+                         
+                         </select>
+
+                     </div><!--col-md-7   Finish -->
+                 </div><!--form   Finish -->
+                 
+                 <p class="price">$<?php echo $pro_price; ?></p>
+                 <p class="text-center buttons"><button class="btn btn-primary i fa fa-shoping-cart">Add To Cart</button></p>
+                
+                 
+               </form><!--form   Finish -->
