@@ -80,7 +80,7 @@
                            
                            <form action="details.php?add_cart=<?php echo $product_id; ?>" class="form-horizontal" method="post"><!-- form-horizontal Begin -->
                                <div class="form-group"><!-- form-group Begin -->
-                                   <label for="" class="col-md-5 control-label">Products Quantity</label>
+                                   <label for="" class="col-md-5 control-label">Products Quantity (Per KG)</label>
                                    
                                    <div class="col-md-7"><!-- col-md-7 Begin -->
                                           <select name="product_qty" id="" class="form-control"><!-- select Begin -->
@@ -113,7 +113,7 @@
                                    </div><!-- col-md-7 Finish -->
                                </div><!-- form-group Finish -->
                                
-                               <p class="price">$<?php echo $pro_price; ?></p>
+                               <p class="price"><?php echo" ksh.$pro_price"; ?></p>
                                
                                <p class="text-center buttons"><button class="btn btn-primary i fa fa-shopping-cart"> Add to cart</button></p>
                                
@@ -210,7 +210,7 @@
                                 
                                     <h3> <a href='details.php?pro_id=$pro_id'> $pro_title </a> 
                                     
-                                           <p class='price'> $$pro_price </p>
+                                           <p class='price'> Ksh.$pro_price </p>
                                 
                                     </h3>
 

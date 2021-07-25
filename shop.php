@@ -94,7 +94,7 @@
 
                                                <p class='price'>
                                                
-                                                   $$pro_price
+                                                   Ksh.$pro_price
                                                
                                                </p>
 

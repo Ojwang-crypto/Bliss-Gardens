@@ -40,7 +40,7 @@ function add_cart(){
         
         if(mysqli_num_rows($run_check)>0){
             
-            echo "<script>alert('This product has already been added to cart')</script>";
+            echo "<script>alert('This product has already added in cart')</script>";
             echo "<script>window.open('details.php?pro_id=$p_id','_self')</script>";
             
         }else{
@@ -97,7 +97,7 @@ function add_cart(){
                         
                             <p class='price'>
                             
-                                Ksh.$pro_price
+                                $$pro_price
                             
                             </p>
                          </h3>
@@ -232,7 +232,7 @@ function getPCats(){
                         
                             <p class='price'>
                             
-                                Ksh.$pro_price
+                                $$pro_price
                             
                             </p>
                          </h3>
@@ -305,7 +305,7 @@ function total_price(){
 
    }
 
-     echo"Ksh." . $total;
+     echo"" . $total;
    
 
 

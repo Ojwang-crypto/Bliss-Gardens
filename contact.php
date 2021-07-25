@@ -76,6 +76,33 @@
                 </div>
              
              </form><!--form  Finish -->
+
+             <?php 
+             
+               if(isset($_POST['submit'])){
+
+                 ///Admin receives messages with this
+
+                 $sender_name = $_POST['name'];
+                 $sender_email = $_POST['email'];
+                 $sender_subject = $_POST['subject'];
+                 $sender_message = $_POST['message'];
+                 $receiver_email = "omondicollins163@gmail.com";
+                 mail($receiver_email,$sender_name,$sender_subject,$sender_message,$sender_email);
+
+                 ///Auto reply to sender with this///
+
+                 $email = $_POST['email'];
+                 $subject = "Welcome to Bliss Gardens Ecommerce";
+                 $msg = "thank you for sending us a Message, We will reply to your message ASAP!";
+                 $from = "omondicollins163@gmail.com";
+                 mail($email,$subject,$msg,$from);
+
+                 echo"<h2 align='center'>Your Message has been sent successfully </h2> ";
+
+               }
+             
+             ?>
             
             </div><!--box-header  Finish -->
           

@@ -1,5 +1,6 @@
 <?php 
 
+   session_start();
    include("includes/db.php"); 
    include("functions/functions.php");
 
@@ -41,7 +42,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OJWANG'S ECOMMERCE</title>
+    <title>BLISS GARDENS ECOMMERCE</title>
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -54,8 +55,24 @@
          
              <div class="col-md-6 offer"><!--offer begin -->
 
-                <a href="#" class="btn btn-success btn-sm">welcome</a>
-                <a href="checkout.php">4 Items In Your Cart | Total Price: $300</a>
+                <a href="#" class="btn btn-success btn-sm">
+                
+                  <?php 
+                  
+                     if(!isset($_SESSION['customer_email'])){
+                       
+                       echo "Welcome: Guest";
+                       
+                   }else{
+                       
+                       echo "Welcome: " . $_SESSION['customer_email'] . "";
+                       
+                   }
+                  
+                  ?>
+                
+                </a>
+                <a href="checkout.php"><?php  items();  ?> Items In Your Cart | Total Price: <?php total_price(); ?></a>
 
              </div><!--offer Finish -->
 
@@ -71,7 +88,23 @@
                          <a href="cart.php">Go To Cart</a>
                     </li>
                     <li>
-                          <a href="checkout.php">Login</a>
+                          <a href="checkout.php">
+                          
+                          <?php 
+                          
+                           if(!isset($_SESSION['customer_email'])){
+                       
+                                  echo "<a href='checkout.php'>Login</a>";
+                       
+                         }else{
+                       
+                             echo " <a href='logout.php'>Log Out</a> ";
+                       
+                             }
+                          
+                          ?>
+                          
+                          </a>
                     </li>
                 
                 </ul><!--menu Finish -->
@@ -121,9 +154,9 @@
                            </ul><!--nav navbar-nav left  finish -->
                        
                       </div><!--paddig-nav  finish -->
-                        <a href="cat.php" class="btn navbar-btn btn-primary right"><!--btn navbar-btn btn-primary right Begin -->
+                        <a href="cart.php" class="btn navbar-btn btn-primary right"><!--btn navbar-btn btn-primary right Begin -->
                             <i class="fa fa-shoping-cart"></i>
-                               <span>4 Items In Your Cart</span>
+                               <span><?php  items();?> Items In Your Cart</span>
                         </a><!--btn navbar-btn btn-primary right Finish -->
                         <div class="navbar-collapse collapse right"><!--navbar-collapse collapse right  Begin -->
                         
