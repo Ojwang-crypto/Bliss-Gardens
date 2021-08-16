@@ -4,16 +4,43 @@
             <div class="col-sm-6 col-md-3"><!-- col-sm-6 col-md-3 begin-->
                  <h4>Pages</h4>
              <ul><!-- ul begin-->
-                 <li><a href="cart.php">Shopping Cart</a></li>
-                 <li><a href="contact.php">Contac Us</a></li>
-                 <li><a href="shop.php">Shop</a></li>
-                 <li><a href="customer/my_account.php">My Account</a></li>
+                 <li><a href="../cart.php">Shopping Cart</a></li>
+                 <li><a href="../contact.php">Contac Us</a></li>
+                 <li><a href="../shop.php">Shop</a></li>
+                 <li><a href="../customer/my_account.php">My Account</a></li>
              </ul><!-- ul Finish-->
             <hr>
              <h4>User Section</h4>
                <ul><!-- ul begin-->
-                   <li><a href="checkout.php">Login</a></li>
-                   <li><a href="customer_register.php">Register</a></li>
+                   <?php 
+                                       
+                        if(!isset($_SESSION['customer_email'])){
+
+                            echo"<a href='checkout.php'>Login</a>";
+                            }else{
+
+                                 echo"<a href='my_account.php?my_orders'>My Account</a>";
+
+                            }
+                                       
+                    ?>
+                   <li>
+
+                        <?php 
+                                       
+                        if(!isset($_SESSION['customer_email'])){
+
+                            echo"<a href='checkout.php'>Login</a>";
+                            }else{
+
+                                 echo"<a href='my_account.php?edit_account'>Edit Account</a>";
+
+                            }
+                                       
+                    ?>
+                    <li><a href="../terms.php">Terms & Conditions</a></li>
+                   
+                   </li>
                </ul><!-- ul Finish-->
                <hr class="hidden-md hidden-lg hidden-sm">
             </div><!-- col-sm-6 col-md-3 Finish-->
@@ -35,7 +62,7 @@
                             
                              <li>
                              
-                                 <a href='shop.php?p_cats=$p_cat_id'>
+                                 <a href='../shop.php?p_cats=$p_cat_id'>
                                  
                                      $p_cat_title 
                                  
@@ -66,7 +93,7 @@
                   </br>
                 </p><!-- p Finish-->
 
-                <a href="contact.php">Check Our Contact Page</a>
+                <a href="../contact.php">Check Our Contact Page</a>
                 <hr class="hidden-md hidden-lg">
             </div><!-- com-sm-6 col-md-3 Finish-->
             <div class="col-sm-6 col-md-3"></div><!-- col-sm-6 col-md-3 begin-->
@@ -90,11 +117,11 @@
              <hr>
              <h4>Keep In Touch</h4>
              <p class="social">
-                 <a href="#" class="fa fa-facebook"></a>
-                 <a href="#" class="fa fa-twitter"></a>
-                 <a href="#" class="fa fa-instagram"></a>
-                 <a href="#" class="fa fa-google-plus"></a>
-                 <a href="#" class="fa fa-envelope"></a>
+                 <a href="../#" class="fa fa-facebook"></a>
+                 <a href="../#" class="fa fa-twitter"></a>
+                 <a href="../#" class="fa fa-instagram"></a>
+                 <a href="../#" class="fa fa-google-plus"></a>
+                 <a href="../#" class="fa fa-envelope"></a>
              </p>
             </div><!-- col-sm-6 col-md-3 Finish-->
         </div><!-- row Finish-->

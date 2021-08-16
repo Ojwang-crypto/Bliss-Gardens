@@ -145,7 +145,20 @@
                                   <a href="cart.php">SHOPPING CART</a>
                               </li>
                               <li class="<?php if($active=='MY ACCOUNT') echo"active"; ?>">
-                                 <a href="customer/my_account.php">MY ACCOUNT</a>
+                                 
+                                       <?php 
+                                       
+                                          if(!isset($_SESSION['customer_email'])){
+
+                                                echo"<a href='checkout.php'>MY ACCOUNT</a>";
+                                          }else{
+
+                                               echo"<a href='customer/my_account.php?my_orders'>MY ACCOUNT</a>";
+
+                                          }
+                                       
+                                       ?>
+
                               </li>
                               <li class="<?php if($active=='CONTACT US') echo"active"; ?>">
                                 <a href="contact.php">CONTACT US</a> 

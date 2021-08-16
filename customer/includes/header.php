@@ -34,15 +34,13 @@
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OJWANG'S ECOMMERCE</title>
+    <title>Bliss Gardens</title>
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
@@ -155,7 +153,7 @@
                            </ul><!--nav navbar-nav left  finish -->
                        
                       </div><!--paddig-nav  finish -->
-                        <a href="cat.php" class="btn navbar-btn btn-primary right"><!--btn navbar-btn btn-primary right Begin -->
+                        <a href="../cat.php" class="btn navbar-btn btn-primary right"><!--btn navbar-btn btn-primary right Begin -->
                             <i class="fa fa-shoping-cart"></i>
                                <span><?php  items();?> Items In Your Cart</span>
                         </a><!--btn navbar-btn btn-primary right Finish -->

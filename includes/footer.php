@@ -12,8 +12,20 @@
             <hr>
              <h4>User Section</h4>
                <ul><!-- ul begin-->
-                   <li><a href="checkout.php">Login</a></li>
+                   <?php 
+                                       
+                        if(!isset($_SESSION['customer_email'])){
+
+                            echo"<a href='checkout.php'>Login</a>";
+                            }else{
+
+                                 echo"<a href='customer/my_account.php?my_orders'>MY ACCOUNT</a>";
+
+                            }
+                                       
+                    ?>
                    <li><a href="customer_register.php">Register</a></li>
+                    <li><a href="terms.php">Terms & Conditions</a></li>
                </ul><!-- ul Finish-->
                <hr class="hidden-md hidden-lg hidden-sm">
             </div><!-- col-sm-6 col-md-3 Finish-->
