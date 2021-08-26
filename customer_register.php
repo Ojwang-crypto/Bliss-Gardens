@@ -21,11 +21,9 @@
     </div><!--container col-md-12  Finish -->
     <div class="col-md-3"><!--col-md-3   begin -->
     
-          <?php
-               include("includes/sidebar.php")
-           ?>
+          
        </div><!--col-md-3   Finish -->
-       <div class="col-md-9"><!--col-md-9  begin -->
+       <div class="col-md-6"><!--col-md-9  begin -->
     
           <div class="box"><!--box  begin -->
             
@@ -47,6 +45,12 @@
                 
                     <label>Name</label>
                     <input type="text" class="form-control" name="c_name" required>
+                
+                </div><!--form-group  Finish -->
+                 <div class="formm-group"><!--form-group  begin-->
+                
+                    <label>Second Name</label>
+                    <input type="text" class="form-control" name="s_name" required>
                 
                 </div><!--form-group  Finish -->
                  <div class="formm-group"><!--form-group  begin-->
@@ -123,6 +127,8 @@
   if(isset($_POST['register'])){
     
     $c_name = $_POST['c_name'];
+
+    $s_name = $_POST['s_name'];
     
     $c_email = $_POST['c_email'];
     
@@ -142,7 +148,7 @@
     
     move_uploaded_file($c_image_tmp,"customer/customer_images/$c_image");
     
-    $insert_customer = "insert into customers (customer_name,customer_email,customer_pass,customer_county,customer_contact,customer_address,customer_image,customer_ip) values ('$c_name','$c_email','$c_pass','$c_county','$c_contact','$c_address','$c_image','$c_ip')";
+    $insert_customer = "insert into customers (customer_name,second_name,customer_email,customer_pass,customer_county,customer_contact,customer_address,customer_image,customer_ip) values ('$c_name','$s_name','$c_email','$c_pass','$c_county','$c_contact','$c_address','$c_image','$c_ip')";
     
     $run_customer = mysqli_query($con,$insert_customer);
     
@@ -166,7 +172,7 @@
         
         /// If register without items in cart ///
         
-        $_SESSION['customer_email']=$c_email;
+       /// $_SESSION['customer_email']=$c_email;
         
         echo "<script>alert('You have been Registered Sucessfully')</script>";
         

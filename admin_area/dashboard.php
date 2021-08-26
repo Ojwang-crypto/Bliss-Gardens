@@ -211,7 +211,7 @@
                                 <th> Invoice No: </th>
                                 <th> Product ID: </th>
                                 <th> Product Qty: </th>
-                                <th> Product Size: </th>
+                                <th> Category: </th>
                                 <th> Status: </th>
                             
                             </tr><!-- th finish -->

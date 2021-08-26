@@ -36,8 +36,6 @@
         
         $p_price = $row_edit['product_price'];
         
-        $p_keywords = $row_edit['product_keywords'];
-        
         $p_desc = $row_edit['product_desc'];
         
     }
@@ -219,18 +217,6 @@
                    
                    <div class="form-group"><!-- form-group Begin -->
                        
-                      <label class="col-md-3 control-label"> Product Keywords </label> 
-                      
-                      <div class="col-md-6"><!-- col-md-6 Begin -->
-                          
-                          <input name="product_keywords" type="text" class="form-control" required value="<?php echo $p_keywords; ?>">
-                          
-                      </div><!-- col-md-6 Finish -->
-                       
-                   </div><!-- form-group Finish -->
-                   
-                   <div class="form-group"><!-- form-group Begin -->
-                       
                       <label class="col-md-3 control-label"> Product Desc </label> 
                       
                       <div class="col-md-6"><!-- col-md-6 Begin -->
@@ -281,7 +267,6 @@ if(isset($_POST['update'])){
     $product_cat = $_POST['product_cat'];
     $cat = $_POST['cat'];
     $product_price = $_POST['product_price'];
-    $product_keywords = $_POST['product_keywords'];
     $product_desc = $_POST['product_desc'];
     
     $product_img1 = $_FILES['product_img1']['name'];
@@ -296,7 +281,7 @@ if(isset($_POST['update'])){
     move_uploaded_file($temp_name2,"product_images/$product_img2");
     move_uploaded_file($temp_name3,"product_images/$product_img3");
     
-    $update_product = "update products set p_cat_id='$product_cat',cat_id='$cat',date=NOW(),product_title='$product_title',product_img1='$product_img1',product_img2='$product_img2',product_img3='$product_img3',product_keywords='$product_keywords',product_desc='$product_desc',product_price='$product_price' where product_id='$p_id'";
+    $update_product = "update products set p_cat_id='$product_cat',cat_id='$cat',date=NOW(),product_title='$product_title',product_img1='$product_img1',product_img2='$product_img2',product_img3='$product_img3',product_desc='$product_desc',product_price='$product_price' where product_id='$p_id'";
     
     $run_product = mysqli_query($con,$update_product);
     

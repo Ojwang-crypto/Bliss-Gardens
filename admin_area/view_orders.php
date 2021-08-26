@@ -42,7 +42,7 @@
                                 <th> Invoice No: </th>
                                 <th> Product Name: </th>
                                 <th> Product Qty: </th>
-                                <th> Product Size: </th>
+                                <th> Category: </th>
                                 <th> Order Date: </th>
                                 <th> Total Amount: </th>
                                 <th> Status: </th>

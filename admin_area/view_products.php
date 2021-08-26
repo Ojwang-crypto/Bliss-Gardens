@@ -42,7 +42,7 @@
                                 <th> Product Image: </th>
                                 <th> Product Price: </th>
                                 <th> Product Sold: </th>
-                                <th> Product Keywords: </th>
+                                
                                 <th> Product Date: </th>
                                 <th> Product Delete: </th>
                                 <th> Product Edit: </th>
@@ -69,8 +69,6 @@
                                     
                                     $pro_price = $row_pro['product_price'];
                                     
-                                    $pro_keywords = $row_pro['product_keywords'];
-                                    
                                     $pro_date = $row_pro['date'];
                                     
                                     $i++;
@@ -94,7 +92,7 @@
                                     
                                      ?> 
                                 </td>
-                                <td> <?php echo $pro_keywords; ?> </td>
+                                
                                 <td> <?php echo $pro_date ?> </td>
                                 <td> 
                                      
