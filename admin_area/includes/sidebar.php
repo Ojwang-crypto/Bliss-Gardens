@@ -165,6 +165,11 @@
                 </a><!-- a href finish -->
             </li><!-- li finish -->
             <li><!-- li begin -->
+                <a href="index.php?messages"><!-- a href begin -->
+                    <i class="fa fa-fw fa-envelope"></i> View Messages
+                </a><!-- a href finish -->
+            </li><!-- li finish -->
+            <li><!-- li begin -->
                 <a href="#" data-toggle="collapse" data-target="#terms"><!-- a href begin -->
                         
                         <i class="fa fa-fw fa-table"></i> Terms

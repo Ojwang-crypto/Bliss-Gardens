@@ -18,9 +18,9 @@
                    </li>
                    
                    <li>
-                       <a href="shop.php?p_cat=<?php echo $p_cat_id; ?>"><?php echo $p_cat_title; ?></a>
+                       <a href="shop.php?p_cat=<?php echo $p_cat_id; ?>"><?php ///echo $p_cat_title; ?></a>
                    </li>
-                   <li> <?php echo $pro_title; ?> </li>
+                   <li> <?php /// echo $pro_title; ?> </li>
                </ul><!-- breadcrumb Finish -->
                
            </div><!-- col-md-12 Finish -->
@@ -74,7 +74,7 @@
                    
                    <div class="col-sm-6"><!-- col-sm-6 Begin -->
                        <div class="box"><!-- box Begin -->
-                           <h1 class="text-center"> <?php echo $pro_title; ?> </h1>
+                           <h1 class="text-center"> <?php ///echo $pro_title; ?> </h1>
                            
                            <?php add_cart(); ?>
                            

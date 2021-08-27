@@ -87,22 +87,19 @@
                  $sender_email = $_POST['email'];
                  $sender_subject = $_POST['subject'];
                  $sender_message = $_POST['message'];
-                 $receiver_email = "omondicollins163@gmail.com";
-                 mail($receiver_email,$sender_name,$sender_subject,$sender_message,$sender_email);
+                 $insert_message = "insert into messages (name,email,subject,message) values ('$sender_name','$sender_email','$sender_subject','$sender_message')";
+                 $run_message = mysqli_query($con,$insert_message);
+                 if($run_message){
 
-                 ///Auto reply to sender with this///
-
-                 $email = $_POST['email'];
-                 $subject = "Welcome to Bliss Gardens Ecommerce";
-                 $msg = "thank you for sending us a Message, We will reply to your message ASAP!";
-                 $from = "omondicollins163@gmail.com";
-                 mail($email,$subject,$msg,$from);
-
-                 echo"<h2 align='center'>Your Message has been sent successfully </h2> ";
-
+                              echo"<h3 color='green'>Thank you for reaching out, we'll get back to you soon!</h3>";
+                           /// echo"<script>alert('Thank you for reaching out, we'll get back to you soon')</script>";
+                           /// echo"<script>window.open('index.php','_self')</script>";
+                     }
+              
                }
-             
              ?>
+
+            
             
             </div><!--box-header  Finish -->
           

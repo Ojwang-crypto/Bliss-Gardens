@@ -301,7 +301,7 @@
                         $run_pending_order = mysqli_query($con,$update_pending_order);
                         if($run_pending_order){
 
-                            echo"<script>alert('Thank you for purchasing, Your rrder Will Be Completed Within 2 to 3 business days')</script>";
+                            echo"<script>alert('Thank you for purchasing, Your order Will Be Completed Within 2 to 3 business days')</script>";
                              echo"<script>window.open('my_account.php?my_orders','_self')</script>";
 
                         }

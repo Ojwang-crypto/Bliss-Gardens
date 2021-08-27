@@ -151,6 +151,14 @@
                 }   if(isset($_GET['view_customers'])){
                         
                         include("view_customers.php");
+
+                }   if(isset($_GET['messages'])){
+                        
+                        include("messages.php");
+
+                 }   if(isset($_GET['delete_messages'])){
+                        
+                        include("delete_messages.php");
                         
                 }   if(isset($_GET['delete_customer'])){
                         
